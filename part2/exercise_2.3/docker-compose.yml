@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  front:
+    image: mpajuka/front-end 
+    ports:
+      - 3000:5000
+  back:
+    image: mpajuka/back-end 
+    ports:
+      - 8080:8080
