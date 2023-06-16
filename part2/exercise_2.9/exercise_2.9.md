@@ -1,0 +1,1 @@
+Changed the backend request origin to http://localhost, and the for the frontend the REACT_APP_BACKEND_URL to http://localhost/api, so that the app is fully functional when accessed through http://localhost. This was done because the nginx handles the addresses instead.
